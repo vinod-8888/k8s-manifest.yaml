@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
- name: mavenwebappdeployment
+ name: javawebappdeployment
 spec:
  replicas: 1
  strategy: 
@@ -33,5 +33,5 @@ spec:
   ports:
    - port: 80
      targetPort: 8080
-     nodePort: 30736
+     nodePort: 30732
 ...
